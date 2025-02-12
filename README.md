@@ -2,7 +2,7 @@
 랭킹함수 기반 시맨틱 서치 프로젝트 <br>
 프로젝트 진행 날짜: 2024.11 ~ 2025.02
 
-<br> <br>
+<br>
 
 ## 개념정리
 ## Embedding 
@@ -54,9 +54,21 @@
 - 정보의 순서를 조정하기 위해 Rernak를 사용
   - 검색에서 한차례 선별된 정보 리스트에서 상위 K개의 문서에 한정하여 순위를 재조정
   - reranker 모델을 사용하여 최종적으로 질의에 대해 가장 의미 있는 내용을 담고 있는 문서를 보다 상위로 올리는 것을 목표로 함
- <br><br>
+ <br>
+ 
 ## 사용 방법
- <br><br>
+
+1. git clone
+```
+git clone https://github.com/YEERRIn/SemanticSearchWithRanker
+```
+
+2. query 입력
+```
+query = '간식으로 먹을 수 있는 든든한 샌드위치 추천해줘' 
+```
+<br>
+
 ## 팀원 소개
 |[송다은](https://github.com/daeun6)|[문미란](https://github.com/alfks)|[신예린](https://github.com/YEERRIn)|[정은지](https://github.com/bbobburi)|
 | :---: | :---: | :---: | :---: |
